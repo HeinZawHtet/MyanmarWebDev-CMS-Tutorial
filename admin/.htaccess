@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Admin Only"
+AuthUserFile C:\\wamp\\www\\cms\\admin/.htpasswd
+Require valid-user
