@@ -6,7 +6,7 @@
 		"pass" => "35zqsKSv",			// Database password
 		"name" => "mmwebdevcmstuts_phpfogapp_com",			// Database Name
 
-		"site_name" => "My Own Custom CMS",
+		"site_name" => "My Custom CMS",
 		"site_url" => "http://myanmarwebdevcmstut.pagodabox.com/",
 		"ads_img" => "http://myanmarwebdevcmstut.pagodabox.com/assets/images/ads.jpg",
 		"ads_url" => "http://www.myanmarwebdev.com"
