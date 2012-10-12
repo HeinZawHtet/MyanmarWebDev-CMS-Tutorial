@@ -1,16 +1,15 @@
 <?php
 	$config = array(
 
-		"host" => "tunnel.pagodabox.com",	// Host name
-		"user" => "wilda", 		// Database user
-		"pass" => "35zqsKSv",			// Database password
-		"name" => "mmwebdevcmstuts_phpfogapp_com",			// Database Name
-		"port" => "3306",
+		"host" => "localhost",	// Host name
+		"user" => "root", 		// Database user
+		"pass" => "",			// Database password
+		"name" => "cms",			// Database Name
 
-		"site_name" => "My Custom CMS",
-		"site_url" => "http://myanmarwebdevcmstut.pagodabox.com/",
-		"ads_img" => "http://myanmarwebdevcmstut.pagodabox.com/assets/images/ads.jpg",
+		"site_name" => "My Own Custom CMS",
+		"site_url" => "http://localhost/cms",
+		"ads_img" => "http://localhost/cms/assets/images/ads.jpg",
 		"ads_url" => "http://www.myanmarwebdev.com"
 	);
 	
-	$conn = new mysqli($_SERVER["DB1_HOST"], $_SERVER["DB1_USER"], $_SERVER["DB1_PASS"], $_SERVER["DB1_NAME"], $_SERVER["DB1_NAME"]) or die(mysqli_error());
+	$conn = new MySQLi($config['host'], $config['user'], $config['pass'], $config['name']) or die(mysqli_error());
