@@ -2,8 +2,8 @@
 	$config = array(
 
 		"host" => "tunnel.pagodabox.com:3306",	// Host name
-		"user" => "alyson", 		// Database user
-		"pass" => "fP0qOv7c",			// Database password
+		"user" => "wilda", 		// Database user
+		"pass" => "35zqsKSv",			// Database password
 		"name" => "mmwebdevcmstuts_phpfogapp_com",			// Database Name
 
 		"site_name" => "My Own Custom CMS",
