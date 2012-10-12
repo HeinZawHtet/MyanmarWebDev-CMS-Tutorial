@@ -13,4 +13,4 @@
 		"ads_url" => "http://www.myanmarwebdev.com"
 	);
 	
-	$conn = new mysqli($config['host'], $config['user'], $config['pass'], $config['name'], $config['port']) or die(mysqli_error());
+	$conn = new mysqli($_SERVER["DB1_HOST"], $_SERVER["DB1_USER"], $_SERVER["DB1_PASS"], $_SERVER["DB1_NAME"], $_SERVER["DB1_NAME"]) or die(mysqli_error());
